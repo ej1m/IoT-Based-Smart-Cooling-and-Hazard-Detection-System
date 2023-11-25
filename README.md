@@ -8,6 +8,7 @@ Power source: AC, 12V DC supply. 
 The PIR sensor’s sensitivity ranges up to 20 feet (6 meters) 110 ° x 70 ° detection range. 
 When the sensor detects high levels of infrared radiation (a human is within its sensitivity range), it gets triggered.
 The DHT11 sensor starts taking readings.
+
 The DHT11 sensor measures the ambient temperature and subsequently turns on the DC fan. 
 It prints the measured ambient temperature and fan speed on the LCD. 
 The fan speed gradually increases as the ambient temperature increases.
