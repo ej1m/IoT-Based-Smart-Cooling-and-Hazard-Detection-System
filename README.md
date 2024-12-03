@@ -1,4 +1,4 @@
-# IoT based smart cooling and hazard detecton system
+# Smart cooling and hazard detecton system
 This project involves the design and implementation of a smart cooling and hazard detection system that integrates environmental monitoring and automated responses for enhanced functionality.
 
 Sensors Utilized:
