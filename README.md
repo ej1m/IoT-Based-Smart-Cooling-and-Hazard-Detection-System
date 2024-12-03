@@ -27,4 +27,4 @@ In scenarios where the temperature exceeds a predefined upper limit, indicating 
 
 Power Supply: The system is powered by a 12V DC supply and can also utilize AC power.
 
-This effectively combines environmental monitoring, safety, and automated cooling, making it suitable for applications requiring enhanced safety and comfort.
+This system effectively combines environmental monitoring, safety, and automated cooling, making it suitable for applications requiring enhanced safety and comfort.
