@@ -1,18 +1,30 @@
-# Autonomous-multipurpose-home-cooling-system
-This is a model of a smart cooling system designed with a DHT11 sensor, MQ-2 gas sensor and HC-SR501 PIR motion sensor.
+# IoT based smart cooling and hazard detecton system
+This project involves the design and implementation of a smart cooling and hazard detection system that integrates environmental monitoring and automated responses for enhanced functionality.
 
-Sensors used: HC-SR501 Passive Infrared (PIR) motion sensor, MQ-2 gas sensor, DHT11 (Digital Humidity and Temperature) sensor.
-Actuators used: 12V DC Fan, Liquid Crystal Display (LCD), Light Emitting Diodes (LEDs), Buzzer.
-Power source: AC, 12V DC supply. 
+Sensors Utilized:
 
-The PIR sensor’s sensitivity ranges up to 20 feet (6 meters) 110 ° x 70 ° detection range. 
-When the sensor detects high levels of infrared radiation (a human is within its sensitivity range), it gets triggered.
-The DHT11 sensor starts taking readings.
+•	HC-SR501 PIR Motion Sensor: Detects motion within a sensitivity range of up to 6 meters and a 110° x 70° field of view. It is triggered by infrared radiation, such as the presence of a human within its range.
 
-The DHT11 sensor measures the ambient temperature and subsequently turns on the DC fan. 
-It prints the measured ambient temperature and fan speed on the LCD. 
-The fan speed gradually increases as the ambient temperature increases.
+•	DHT11 Temperature and Humidity Sensor: Measures ambient temperature and humidity.
 
-Assuming the temperature sensor readings go beyond a certain upper limit (could be a fire or gas leakage), a red LED turns on, indicating danger. “FIRE” is printed on the LCD.
-The MQ-2 gas sensor detects methane, butane, hydrogen, Liquefied Petroleum Gas (LPG), smoke and carbon monoxide concentrations in the air, with concentrations ranging from 200 – 10,000 ppm. 
-If either of these are detected, the red LED comes on, “GAS LEAKAGE” is printed on the LCD and the buzzer output becomes HIGH, generating a high pitch.
+•	MQ-2 Gas Sensor: Monitors air quality, detecting gases such as methane, butane, hydrogen, liquefied petroleum gas (LPG), smoke, and carbon monoxide in concentrations ranging from 200 to 10,000 ppm.
+
+Actuators Utilized:
+
+•	12V DC Fan: Adjusts speed based on temperature readings.
+
+•	Liquid Crystal Display (LCD): Displays temperature, fan speed, and alerts.
+
+•	Light Emitting Diodes (LEDs): Provides visual indicators for system states.
+
+•	Buzzer: Generates audible alerts during emergency conditions.
+
+System Operation:
+
+When the PIR motion sensor detects a humans’ presence within its range, the DHT11 sensor activates to measure ambient temperature. Based on the temperature readings, the DC fan is turned on, and its speed is adjusted proportionally to the temperature increase. The ambient temperature and fan speed are displayed on the LCD.
+
+In scenarios where the temperature exceeds a predefined upper limit, indicating a potential fire or other hazard, a red LED illuminates, and "FIRE" is displayed on the LCD. Concurrently, the MQ-2 gas sensor monitors the environment for harmful gases or smoke. Upon detecting dangerous levels, the red LED and buzzer activate, while "GAS LEAKAGE" is displayed on the LCD to alert users to the hazard.
+
+Power Supply: The system is powered by a 12V DC supply and can also utilize AC power.
+
+This effectively combines environmental monitoring, safety, and automated cooling, making it suitable for applications requiring enhanced safety and comfort.
